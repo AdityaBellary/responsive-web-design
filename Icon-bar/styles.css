@@ -1,0 +1,38 @@
+.icon__bar {
+  width: 90px;
+  background-color: #555;
+}
+
+.icon__bar-hor {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon__bar > a {
+  display: block;
+  text-align: center;
+  font-size: 36px;
+  padding: 10px;
+  transition: all 0.3s ease-in;
+  color: white;
+}
+
+.icon__bar-hor > a {
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    transition: all 0.3s ease-in;
+    color: white;
+    width: 20%;
+    padding: 12px 0;
+}
+
+a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04aa6d;
+}
