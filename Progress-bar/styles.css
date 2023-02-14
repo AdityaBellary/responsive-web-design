@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.progress {
+  display: block;
+  height: 20px;
+  border: 1px solid;
+  width: 500px;
+  margin: 20px auto;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.bar {
+  width: 0px;
+  height: 100%;
+  background-color: red;
+}
+
+.loading {
+  width: 100%;
+}
